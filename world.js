@@ -7,9 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 function Lookupbtn (){
-
     let country = document.getElementById('country').value.trim();
-    //let cities = document.getElementById('cities')
     let url = 'http://localhost/info2180-lab5/world.php?country=' + encodeURIComponent(country);
     
     fetch(url)
@@ -27,8 +25,8 @@ function Lookupbtn (){
 function cities (){
 
     let country = document.getElementById('country').value.trim();
-    
-    let url = 'world.php?country=' + encodeURIComponent(country) + 'lookup=' + encodeURIComponent(country) ;
+
+    let url = 'http://localhost/info2180-lab5/world.php?country='+ encodeURIComponent(country) + '&lookup=cities';
     
     fetch(url)
     .then(response => response.text())

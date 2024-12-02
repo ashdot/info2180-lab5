@@ -1,32 +1,36 @@
 /* Add your own styles */
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&display=swap');
 
 header {
-    background-color: aqua;
-    padding: 5%;
+    background-color: navy;
+    padding: 8%;
     text-align: center;
 
 }
 
 h1 {
     font-family:'Courier New', Courier, monospace 'Arial Narrow', Arial, sans-serif;
-    color: green;
+    color: white;
 } 
 
 table {
-    font-family: arial, sans-serif;
+    font-family: 'roboto mono', monospace, arial, sans-serif;
     border-collapse: collapse;
-    width: 40%;
-    padding: 3%;
+    width: 80%;
+    font-size: small;
 
   }
+
+
 
 
 
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
-    padding: 12px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   
 tr:nth-child(even) {
@@ -34,14 +38,19 @@ tr:nth-child(even) {
 }
 
 main {
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 3%;
     text-align: center;
+    
 }
 
+
+
+
+
 input {
-    width: 110%;
+    width: 80%;
 
 
 }
