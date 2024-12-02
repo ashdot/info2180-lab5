@@ -1,10 +1,44 @@
 /* Add your own styles */
 
 
+header {
+    background-color: aqua;
+    padding: 5%;
+    text-align: center;
+
+}
+
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace 'Arial Narrow', Arial, sans-serif;
     color: green;
 } 
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
 
+  }
+
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+tr:nth-child(even) {
+    background-color: pink;
+}
+
+main {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 3%;
+}
+
+  
+
+  
 
