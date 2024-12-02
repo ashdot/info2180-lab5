@@ -24,9 +24,27 @@ function Lookupbtn (){
 
 }
 
+function cities (){
+
+    let country = document.getElementById('country').value.trim();
+    
+    let url = 'world.php?country=' + encodeURIComponent(country) + 'lookup=' + encodeURIComponent(country) ;
+    
+    fetch(url)
+    .then(response => response.text())
+    .then(data=> {
+        console.log(data)
+        result.innerHTML = data
+    })
+    .catch(error => {
+        alert(error)
+    });
+
+}
+
 document.getElementById("lookup").addEventListener("click", Lookupbtn);
 
-//document.getElementById("lookup_cities").addEventListener("click", Lookupbtn);
+document.getElementById("lookup_cities").addEventListener("click", cities);
 
 
 

@@ -17,6 +17,7 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 40%;
+    padding: 3%;
 
   }
 
@@ -25,7 +26,7 @@ table {
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
-    padding: 8px;
+    padding: 12px;
   }
   
 tr:nth-child(even) {
@@ -36,7 +37,15 @@ main {
     padding-left: 30%;
     padding-right: 30%;
     padding-top: 3%;
+    text-align: center;
 }
+
+input {
+    width: 110%;
+
+
+}
+
 
   
 

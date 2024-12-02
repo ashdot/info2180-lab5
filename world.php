@@ -22,9 +22,9 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <table>
 
 <tr>
-					<th>Country Name</th>
+					<th>Name</th>
 					<th>Continent</th>
-					<th>Independence Year</th>
+					<th>Independence</th>
 					<th>Head of State</th>
 </tr>
 <?php foreach ($results as $row): ?>
