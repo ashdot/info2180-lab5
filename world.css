@@ -45,6 +45,11 @@ main {
     
 }
 
+main > #result {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 
 
 
